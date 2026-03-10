@@ -2,6 +2,11 @@
 CodeProof – Web app to detect fake developer resumes using GitHub analysis
 # CodeProof
 
+Proof-of-Work verification system for developers.
+
+CodeProof is a web application that helps recruiters detect fake developer resumes by analyzing GitHub activity, repositories, and commit history.
+
+It generates a trust score to determine whether a candidate’s claimed skills match their real coding work.
 CodeProof is a web application that helps recruiters detect fake developer resumes by analyzing GitHub activity and verifying real coding work.
 
 ## Problem
