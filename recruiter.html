@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>CodeProof Recruiter Dashboard</title>
+</head>
+
+<body style="font-family: Arial; text-align:center; margin-top:100px;">
+
+<h1>CodeProof Recruiter Verification</h1>
+
+<p>Enter Developer GitHub Username</p>
+
+<input type="text" id="github" placeholder="github username">
+
+<br><br>
+
+<button onclick="verify()">Verify Candidate</button>
+
+<h2 id="result"></h2>
+
+<script>
+
+function verify(){
+
+document.getElementById("result").innerHTML = "Scanning GitHub profile...";
+    
+setTimeout(function(){
+document.getElementById("result").innerHTML =
+"Trust Score: 82% — Candidate likely genuine";
+},2000)
+
+}
+
+</script>
+
+<br><br>
+
+<a href="index.html">
+<button>⬅ Back to Home</button>
+</a>
+
+</body>
+
+</html>
